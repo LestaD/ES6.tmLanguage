@@ -1,0 +1,22 @@
+{
+  "name": "es6.tmlanguage",
+  "version": "1.0.0",
+  "description": "Better JavaScript language definition for TextMate and SublimeText. This builds on the language files commonly used and adds more fine grained matching and also includes new features from ECMAScript 6 like modules, succinct methods, arrow functions, classes, generators, and accessors (ES5).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LestaD/ES6.tmLanguage.git"
+  },
+  "author": "LestaD <i.am@lestad.net> (Sergey Sova)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LestaD/ES6.tmLanguage/issues"
+  },
+  "homepage": "https://github.com/LestaD/ES6.tmLanguage#readme",
+  "dependencies": {
+    "just-zip": "0.0.2"
+  }
+}
