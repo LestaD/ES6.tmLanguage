@@ -123,6 +123,12 @@ settings:
     fontStyle: bold
     foreground: '#F92672'
 
+- name: support.keyword.node.js
+  scope: support.keyword.node.js
+  settings:
+    fontStyle: bold
+    foreground: '#F92672'
+
 - name: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
   scope: entity.name.module.js, variable.import.parameter.js, variable.other.class.js
   settings:

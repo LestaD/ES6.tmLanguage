@@ -4,7 +4,7 @@ var Just = require('just-zip');
 var fs = require('fs');
 var path = require('path');
 
-var zipfile = path.resolve(__dirname, '../ES6.zip');
+var zipfile = path.resolve(__dirname, '../ES6.sublime-package');
 
 try {
   fs.unlinkSync(zipfile);
@@ -20,5 +20,6 @@ Just(__dirname + '/', path.resolve(__dirname, '../'), function(err, zip){
   else {
     console.log('save', zip);
     fs.renameSync(zip, zipfile);
+    console.log('rename', zipfile);
   }
 });

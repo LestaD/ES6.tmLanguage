@@ -269,6 +269,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>support.keyword.node.js</string>
+			<key>scope</key>
+			<string>support.keyword.node.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
 			<key>scope</key>
 			<string>entity.name.module.js, variable.import.parameter.js, variable.other.class.js</string>
