@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var Moxie = require('moxie-zip').ZipWriter;
+var fs = require('fs');
+var path = require('path');
+var zip = new Moxie();
+
+zip.addDir(__dirname);
+
+zip.saveAs(path.resolve(__dirname, '../ES6.sublime-package'), function(){
+  console.log('ZIP saved to', path.resolve(__dirname, '../ES6.sublime-package'));
+});
+
+
+// fs.readdir(__dirname, function(err, items) {
+//   var i = 0, j = items.length;
+//   for(;i<j;i++) {
+//     var item = items[i];
+
+//   }
+// });
